@@ -4,6 +4,7 @@ import {Form} from 'react-final-form'
 import '../style.css'
 
 export default function Calculator(
+    
     {
     style,
     getNumByScreen,
@@ -18,7 +19,7 @@ export default function Calculator(
    
     return (
         
-            
+        
         <CSSTransition 
             in={true}
             classNames='example' 
@@ -132,5 +133,6 @@ export default function Calculator(
         </div>
         
         </CSSTransition>
+        
     );
 }
