@@ -12,3 +12,4 @@ Embed the React-Final-Form library into the calculator widget
 How to use the repository:
 
 After cloning the repository at the address taken after clicking on the code button
+You must specify this address in the git clone command while in the project folder
