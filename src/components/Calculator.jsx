@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {CSSTransition} from 'react-transition-group';
 import {Form} from 'react-final-form'
 
-import "../style.css"
+import '../style.css'
 
 export default function Calculator(
     {
