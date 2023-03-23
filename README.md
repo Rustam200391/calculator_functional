@@ -13,3 +13,5 @@ How to use the repository:
 
 After cloning the repository at the address taken after clicking on the code button
 You must specify this address in the git clone command while in the project folder
+
+After installing the dependencies using the npm install command , you can run the project using the npm start command
