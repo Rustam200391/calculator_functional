@@ -1,6 +1,6 @@
 Create-react-app functional calculator
 
-<fieldset>
+<label>
 Task:
-</fieldset>
+</label>
 Embed the React-Final-Form library into the calculator widget
