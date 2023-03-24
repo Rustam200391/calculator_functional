@@ -1,23 +1,22 @@
 import React, {useState} from "react";
 import {CSSTransition} from 'react-transition-group';
-import {Form} from 'react-final-form';
-import { Formik } from 'formik';
+import {Form,Field} from 'react-final-form';
 import '../style.css'
 
-export default function Calculator(
-    
+
+
+export const Calculator = (
     {
     style,
     getNumByScreen,
     getNumByKeyBoard,
     getOperatorByKeyBoard,
     getResult,
-    erase })
-
-    {
-    
+    erase }) => {
+        
     const [show, setShow] = useState(false)
    
+    
     return (
         
         
