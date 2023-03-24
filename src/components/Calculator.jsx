@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {CSSTransition} from 'react-transition-group';
-import {Form} from 'react-final-form'
+import {Form} from 'react-final-form';
+import { Formik } from 'formik';
 import '../style.css'
 
 export default function Calculator(
