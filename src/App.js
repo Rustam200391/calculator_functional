@@ -1,5 +1,6 @@
 import React from "react";
-import {Calculator} from "./components/Calculator"
+import {Calculator} from "./components/Calculator";
+
 
 export default function App() {
 
@@ -94,7 +95,9 @@ export default function App() {
         calculatorStyle={calculatorStyle}
         style={style}
       />
+     
     </div>
+    
   );
 }
 

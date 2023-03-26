@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+// import React, {useState} from "react";
 import {CSSTransition} from 'react-transition-group';
-import {Form,Field} from 'react-final-form';
+import {Forms} from './Form';
 import '../style.css'
-
 
 
 export const Calculator = (
@@ -14,7 +13,7 @@ export const Calculator = (
     getResult,
     erase }) => {
         
-    const [show, setShow] = useState(false)
+    // const [show, setShow] = useState(false)
    
     
     return (
@@ -26,17 +25,23 @@ export const Calculator = (
             timeout={300} 
             unmountOnExit
         >
-          
-       
+        
+        
         <div className={style ? "container" : "container-dark"} >
-
-            <h3 onClick={() => setShow(!show)}>{show ? 'Show': 'Hide'}count</h3>
+             <p 
+                 style={{textAlign: "center", color: "white"}}
+             >
+                Let's start
+            </p>
+            
+            {/* <h3 onClick={() => setShow(!show)}>{show ? 'Show': 'Hide'}count</h3> */}
+            <Forms>
             <input
                 id="screen"
                 className={style ? "display" : "display-dark"}
                 onChange={(event) => getNumByScreen(event)}>
             </input>
-
+            </Forms>
             <div className="keysContainer">
 
                 <div className="num">
@@ -101,7 +106,7 @@ export const Calculator = (
 
                 </div>
 
-    
+                
                 <div className="operators">
 
                     <button
